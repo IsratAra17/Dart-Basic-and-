@@ -1,0 +1,29 @@
+void main() { 
+  int a=25;
+  double b=25.2;
+  bool c=true;
+  String name='Israt Ara';
+  
+     print("###This all are the variables output:");
+     print(a);
+     print(b);  
+     print(c);
+     print(name);
+    
+  
+  List<String>mylist1=['a','b','c','d'];
+  print("\n## List<String>mylist1=['a','b','c','d']; means Element of the List #String type.");
+  print(mylist1);
+  
+  
+  List<int>mylist2=[25,4,2000,2,11];
+  print("\n##  List<int>mylist2=[25,4,2000,2,11]; means Element of the List is #int type.");
+  print(mylist2);
+  
+  
+  print("\n##  List<dynamic>mylist3=[2,'ab',25,'in']; means Element of the List is #All type.");
+  List<dynamic>mylist3=[2,'ab',25,'in'];
+  print(mylist3);
+  
+
+}
